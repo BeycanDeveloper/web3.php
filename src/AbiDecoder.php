@@ -103,7 +103,7 @@ class AbiDecoder
         $types = array_column($abiItem->inputs, 'type');
         
         if ($abiItem) {
-            $decoded = $this->ethAbi->decodeParameters($types, substr($input, 10));
+            $decoded = (array) $this->ethAbi->decodeParameters($types, substr($input, 10));
 
             $retData = (object) [
                 "name" => $abiItem->name,
