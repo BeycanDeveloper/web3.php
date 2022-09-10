@@ -1,5 +1,6 @@
 {
     "name": "beycan/web3.php",
+    "version": "1.5.7",
     "description": "Ethereum web3 interface.",
     "type": "library",
     "license": "MIT",
