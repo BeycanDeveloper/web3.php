@@ -18,13 +18,13 @@ Set minimum stability to dev
 
 Then
 ```
-composer require beycan/web3.php dev-master
+composer require beycan/web3.php dev-beycan
 ```
 
 Or you can add this line in composer.json
 
 ```
-"beycan/web3.php": "dev-master"
+"beycan/web3.php": "dev-beycan"
 ```
 
 
